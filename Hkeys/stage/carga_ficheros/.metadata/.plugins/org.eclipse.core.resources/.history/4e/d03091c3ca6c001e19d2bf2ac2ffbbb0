@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_ei3_MWwSEe65mc44BRJ_Xw" name="entidades_urbanísticas_datos" dataPackage="_ei3_MmwSEe65mc44BRJ_Xw" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/Ficheros juntas de compensación/20231010_entidades_urbanísticas_datos.xlsx" Encoding="ISO-8859-1" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Datos" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Datos:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ei3_MmwSEe65mc44BRJ_Xw" name="default" dataManager="_ei3_MWwSEe65mc44BRJ_Xw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ei3_M2wSEe65mc44BRJ_Xw" id="_S0V7gGwSEe65mc44BRJ_Xw" label="entidades_urbanísticas_datos">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_NGwSEe65mc44BRJ_Xw" label="ID_UNIDAD_GESTION" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_NWwSEe65mc44BRJ_Xw" label="ID_ENTIDAD_URBANISTICA" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_NmwSEe65mc44BRJ_Xw" label="TX_NOMBRE_ENTIDAD_URBANISTICA" length="68" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_N2wSEe65mc44BRJ_Xw" label="DE_ESTADO_ENTIDAD_URBANISTICA" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_OGwSEe65mc44BRJ_Xw" label="DE_TIPO_ENTIDAD_URBANISTICA" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_OWwSEe65mc44BRJ_Xw" label="FC_APROBACION_INICIAL" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_OmwSEe65mc44BRJ_Xw" label="FC_ALTA_ENTIDAD_URBANISTICA" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_O2wSEe65mc44BRJ_Xw" label="FC_CONSTITUCION_ENTIDAD_URBANISTICA" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_PGwSEe65mc44BRJ_Xw" label="FC_DISOLUCION_ENTIDAD_URBANISTICA" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_PWwSEe65mc44BRJ_Xw" label="DE_TIPO_CONVOCATORIA" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_PmwSEe65mc44BRJ_Xw" label="DE_ESTADO_CONVOCATORIA" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_P2wSEe65mc44BRJ_Xw" label="DE_REPRESENTANTE_DESIGNADO_ULTIMA_JUNTA_COMPENSACION" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ei3_QGwSEe65mc44BRJ_Xw" label="FC_ULTIMA_JUNTA_COMPENSACION" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_aV7G6mNwEe62AogrlOCX4w" id="_aV5RoGNwEe62AogrlOCX4w" label="siniestralidad_haya_dm_cerrados" version="0.1" statusCode="" item="_aV7G7GNwEe62AogrlOCX4w" displayName="siniestralidad_haya_dm_cerrados">
+    <author href="../../talend.project#_UGALwWIOEe62AogrlOCX4w"/>
+    <additionalProperties xmi:id="_aWCbkGNwEe62AogrlOCX4w" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_aWCbkWNwEe62AogrlOCX4w" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_aWCbkmNwEe62AogrlOCX4w" key="created_date" value="2023-10-05T13:14:55.049+0200"/>
+    <additionalProperties xmi:id="_aWCbk2NwEe62AogrlOCX4w" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_aWCblGNwEe62AogrlOCX4w" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_aWCblWNwEe62AogrlOCX4w" key="modified_date" value="2023-10-16T12:52:44.854+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_aV7G62NwEe62AogrlOCX4w" path="siniestralidad"/>
+  <TalendProperties:ExcelFileConnectionItem xmi:id="_aV7G7GNwEe62AogrlOCX4w" property="_aV7G6mNwEe62AogrlOCX4w" state="_aV7G62NwEe62AogrlOCX4w">
+    <connection href="siniestralidad_haya_dm_cerrados_0.1.item#_aV6fwGNwEe62AogrlOCX4w"/>
+  </TalendProperties:ExcelFileConnectionItem>
+</xmi:XMI>

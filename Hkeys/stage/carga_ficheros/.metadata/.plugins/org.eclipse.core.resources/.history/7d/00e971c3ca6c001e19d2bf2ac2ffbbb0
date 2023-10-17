@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_d4npAGKVEe62AogrlOCX4w" name="f2_reos_Tarifas_Trabajos" id="_d3KQcGKVEe62AogrlOCX4w" dataPackage="_d4rTYGKVEe62AogrlOCX4w" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/f2_reos_Tarifas_Trabajos.txt.15102023.ffs_tmp" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_d4rTYGKVEe62AogrlOCX4w" name="default" dataManager="_d4npAGKVEe62AogrlOCX4w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_d4rTYWKVEe62AogrlOCX4w" id="_LejzYGKTEe62AogrlOCX4w" label="f2_reos_Tarifas_Trabajos">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmYGNgEe62AogrlOCX4w" label="FC_DATOS" length="8" talendType="id_Integer" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmYWNgEe62AogrlOCX4w" label="ID_TRABAJO_REM" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmYmNgEe62AogrlOCX4w" label="DE_SUBTIPO_TRABAJO" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmY2NgEe62AogrlOCX4w" label="DE_CODIGO_TARIFA" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmZGNgEe62AogrlOCX4w" label="TX_DESCRIPCION" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmZWNgEe62AogrlOCX4w" label="IM_PRECIO_UNITARIO" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmZmNgEe62AogrlOCX4w" label="NM_MEDICION" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmZ2NgEe62AogrlOCX4w" label="DE_UNIDAD_MEDICION" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmaGNgEe62AogrlOCX4w" label="IM_TOTAL" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZkEmaWNgEe62AogrlOCX4w" label="Column9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

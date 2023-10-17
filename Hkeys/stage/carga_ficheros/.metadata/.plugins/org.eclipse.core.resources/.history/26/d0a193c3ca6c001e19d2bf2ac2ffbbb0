@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_ei3_QWwSEe65mc44BRJ_Xw" id="_ei3_MGwSEe65mc44BRJ_Xw" label="entidades_urbanísticas_datos" version="0.1" statusCode="" item="_ei3_Q2wSEe65mc44BRJ_Xw" displayName="entidades_urbanísticas_datos">
+    <author href="../../../talend.project#_UGALwWIOEe62AogrlOCX4w"/>
+    <additionalProperties xmi:id="_ejBwMGwSEe65mc44BRJ_Xw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_ejBwMWwSEe65mc44BRJ_Xw" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_ejBwMmwSEe65mc44BRJ_Xw" key="created_date" value="2023-10-16T12:55:11.027+0200"/>
+    <additionalProperties xmi:id="_ejBwM2wSEe65mc44BRJ_Xw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_ejBwNGwSEe65mc44BRJ_Xw" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_ejBwNWwSEe65mc44BRJ_Xw" key="modified_date" value="2023-10-16T12:55:11.027+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_ei3_QmwSEe65mc44BRJ_Xw" path="juntas_compensacion"/>
+  <TalendProperties:ExcelFileConnectionItem xmi:id="_ei3_Q2wSEe65mc44BRJ_Xw" property="_ei3_QWwSEe65mc44BRJ_Xw" state="_ei3_QmwSEe65mc44BRJ_Xw">
+    <connection href="entidades_urbanísticas_datos_0.1.item#_ei3_MWwSEe65mc44BRJ_Xw"/>
+  </TalendProperties:ExcelFileConnectionItem>
+</xmi:XMI>

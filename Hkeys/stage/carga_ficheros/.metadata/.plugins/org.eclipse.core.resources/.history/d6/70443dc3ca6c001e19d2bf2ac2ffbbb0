@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_kFDq0GwREe65mc44BRJ_Xw" name="f2_reos_DND_Expedientes" dataPackage="_kFDq0WwREe65mc44BRJ_Xw" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/f2_reos_DND_Expedientes.txt.15102023.ffs_tmp" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kFDq0WwREe65mc44BRJ_Xw" name="default" dataManager="_kFDq0GwREe65mc44BRJ_Xw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kFER4GwREe65mc44BRJ_Xw" id="_c14uYGwREe65mc44BRJ_Xw" label="f2_reos_DND_Expedientes">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER4WwREe65mc44BRJ_Xw" label="FC_DATOS" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER4mwREe65mc44BRJ_Xw" label="ID_UNIDAD_GESTION" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER42wREe65mc44BRJ_Xw" label="ID_EXPEDIENTE" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER5GwREe65mc44BRJ_Xw" label="ID_PROMOCION_CLIENTE" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER5WwREe65mc44BRJ_Xw" label="DE_ENTIDAD_CLIENTE" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER5mwREe65mc44BRJ_Xw" label="DE_MUNICIPIO" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER52wREe65mc44BRJ_Xw" label="DE_TIPO_TRABAJO" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER6GwREe65mc44BRJ_Xw" label="IM_REAL_TRABAJO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER6WwREe65mc44BRJ_Xw" label="IM_APROBADO" length="15" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER6mwREe65mc44BRJ_Xw" label="IM_TOTAL" length="10" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER62wREe65mc44BRJ_Xw" label="FC_INICIO" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER7GwREe65mc44BRJ_Xw" label="FC_FIN" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER7WwREe65mc44BRJ_Xw" label="DE_ORIGEN" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER7mwREe65mc44BRJ_Xw" label="TX_NOMBRE" length="80" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER72wREe65mc44BRJ_Xw" label="TX_DESCRIPCION" length="2000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER8GwREe65mc44BRJ_Xw" label="FC_APROBACION_DESARROLLO_URBANISTICO" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER8WwREe65mc44BRJ_Xw" label="FC_APROBACION_PROPUESTA_URBANIZACION" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER8mwREe65mc44BRJ_Xw" label="FC_APROBACION_PROPUESTA_REPARCELACION" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER82wREe65mc44BRJ_Xw" label="FC_APROBACION_PROYECTO_OBRAS" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER9GwREe65mc44BRJ_Xw" label="FC_PREVISTA_FINALIZACION" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kFER9WwREe65mc44BRJ_Xw" label="Column20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

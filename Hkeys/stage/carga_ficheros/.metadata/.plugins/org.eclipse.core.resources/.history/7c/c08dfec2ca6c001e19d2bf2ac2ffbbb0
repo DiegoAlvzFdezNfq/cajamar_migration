@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_-OhdgGKOEe62AogrlOCX4w" name="f2_reos_Trabajos" id="_-Lq90GKOEe62AogrlOCX4w" dataPackage="_-OqncGKOEe62AogrlOCX4w" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/f2_reos_Trabajos.txt.15102023.ffs_tmp" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_-OqncGKOEe62AogrlOCX4w" name="default" dataManager="_-OhdgGKOEe62AogrlOCX4w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-OqncWKOEe62AogrlOCX4w" id="_KxiuoGKOEe62AogrlOCX4w" label="f2_reos_Trabajos">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqncmKOEe62AogrlOCX4w" label="FC_DATOS" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqnc2KOEe62AogrlOCX4w" label="ID_TRABAJO" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqndGKOEe62AogrlOCX4w" label="ID_AAII" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqndWKOEe62AogrlOCX4w" label="ID_PRINEX" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqndmKOEe62AogrlOCX4w" label="ID_UVEM" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqnd2KOEe62AogrlOCX4w" label="ID_REM" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqneGKOEe62AogrlOCX4w" label="DE_ENTIDAD_CLIENTE" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqneWKOEe62AogrlOCX4w" label="DE_TIPO_TRABAJO" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnemKOEe62AogrlOCX4w" label="DE_SUBTIPO_TRABAJO" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqne2KOEe62AogrlOCX4w" label="DE_ESTADO_TRABAJO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnfGKOEe62AogrlOCX4w" label="DE_SOLICITANTE" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnfWKOEe62AogrlOCX4w" label="FC_ALTA" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnfmKOEe62AogrlOCX4w" label="FC_APROBACION" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqnf2KOEe62AogrlOCX4w" label="FC_ELECCION_PROVEEDOR" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqngGKOEe62AogrlOCX4w" label="FC_VALIDACION" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqngWKOEe62AogrlOCX4w" label="FC_EJECUCION" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqngmKOEe62AogrlOCX4w" label="FC_PAGO" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqng2KOEe62AogrlOCX4w" label="FC_RECHAZO" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnhGKOEe62AogrlOCX4w" label="FC_ANULACION" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnhWKOEe62AogrlOCX4w" label="FC_CONCRETA_A_REALIZAR" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnhmKOEe62AogrlOCX4w" label="FC_LIMITE" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqnh2KOEe62AogrlOCX4w" label="FC_INICIO_TRABAJO_CONTINUADO" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqniGKOEe62AogrlOCX4w" label="FC_FIN_TRABAJO_CONTINUADO" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqniWKOEe62AogrlOCX4w" label="FC_FIN_COMPROMISO" length="8" talendType="id_String" pattern="&quot;yyyyMMdd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnimKOEe62AogrlOCX4w" label="TX_DESCRIPCION1" length="400" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqni2KOEe62AogrlOCX4w" label="TX_DESCRIPCION2" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnjGKOEe62AogrlOCX4w" label="TX_DESCRIPCION3" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnjWKOEe62AogrlOCX4w" label="TX_DESCRIPCION4" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnjmKOEe62AogrlOCX4w" label="IN_URGENTE" length="-1" talendType="id_Byte" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqnj2KOEe62AogrlOCX4w" label="IN_RIESGO_TERCEROS" length="-1" talendType="id_Byte" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnkGKOEe62AogrlOCX4w" label="TX_MOTIVO_RECHAZO_TRABAJO1" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnkWKOEe62AogrlOCX4w" label="TX_MOTIVO_RECHAZO_TRABAJO2" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnkmKOEe62AogrlOCX4w" label="TX_MOTIVO_RECHAZO_TRABAJO3" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqnk2KOEe62AogrlOCX4w" label="TX_MOTIVO_RECHAZO_TRABAJO4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnlGKOEe62AogrlOCX4w" label="IN_CUBIERTO_POR_SEGURO" length="-1" talendType="id_Byte" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnlWKOEe62AogrlOCX4w" label="IN_TARIFICADO" length="-1" talendType="id_Byte" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnlmKOEe62AogrlOCX4w" label="IN_SIGNO_IM_IMPORTE_TOTAL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqnl2KOEe62AogrlOCX4w" label="IM_IMPORTE_TOTAL" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnmGKOEe62AogrlOCX4w" label="IN_SIGNO_IM_PROVISIONES_SUPLIDOS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnmWKOEe62AogrlOCX4w" label="IM_PROVISIONES_SUPLIDOS" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnmmKOEe62AogrlOCX4w" label="TX_REQUIRIENTE_EXTERNO" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Oqnm2KOEe62AogrlOCX4w" label="TX_CIF_PROVEEDOR" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnnGKOEe62AogrlOCX4w" label="DE_PROVEEDOR" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnnWKOEe62AogrlOCX4w" label="ID_TRABAJO_REM" length="12" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-OqnnmKOEe62AogrlOCX4w" label="Column44" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

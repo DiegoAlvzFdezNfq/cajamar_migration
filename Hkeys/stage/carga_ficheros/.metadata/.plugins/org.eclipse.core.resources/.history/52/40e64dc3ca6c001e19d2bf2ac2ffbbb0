@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_cQJkEGwREe65mc44BRJ_Xw" name="f2_reos_DND_Activos" dataPackage="_cQJkEWwREe65mc44BRJ_Xw" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/f2_reos_DND_Activos.txt.15102023.ffs_tmp" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cQJkEWwREe65mc44BRJ_Xw" name="default" dataManager="_cQJkEGwREe65mc44BRJ_Xw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cQJkEmwREe65mc44BRJ_Xw" id="_UY7wMGwREe65mc44BRJ_Xw" label="f2_reos_DND_Activos">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkE2wREe65mc44BRJ_Xw" label="FC_DATOS" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkFGwREe65mc44BRJ_Xw" label="ID_PROYECTO" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkFWwREe65mc44BRJ_Xw" label="ID_PROMOCION_CLIENTE" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkFmwREe65mc44BRJ_Xw" label="ID_ACTIVO_ENTIDAD_CLIENTE" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkF2wREe65mc44BRJ_Xw" label="ID_ACTIVO_HAYA" length="20" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkGGwREe65mc44BRJ_Xw" label="DE_ENTIDAD_CLIENTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkGWwREe65mc44BRJ_Xw" label="DE_TIPO_ACTIVO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkGmwREe65mc44BRJ_Xw" label="IM_DEUDA_BRUTA" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkG2wREe65mc44BRJ_Xw" label="IM_VNC" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkHGwREe65mc44BRJ_Xw" label="IM_TASACION" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkHWwREe65mc44BRJ_Xw" label="IM_PVP" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkHmwREe65mc44BRJ_Xw" label="DE_ESTADO_COMERCIAL" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkH2wREe65mc44BRJ_Xw" label="FC_CATALOGACION_ACTIVO" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkIGwREe65mc44BRJ_Xw" label="IN_VANDALIZACION_DANIOS" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQJkIWwREe65mc44BRJ_Xw" label="Column14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

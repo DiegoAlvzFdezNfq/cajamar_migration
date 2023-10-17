@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_RyhSIWwSEe65mc44BRJ_Xw" name="derramas_datos" dataPackage="_RyhSImwSEe65mc44BRJ_Xw" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/Ficheros juntas de compensación/20231010_derramas_datos.xlsx" Encoding="ISO-8859-1" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Datos" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Datos:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RyhSImwSEe65mc44BRJ_Xw" name="default" dataManager="_RyhSIWwSEe65mc44BRJ_Xw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RyhSI2wSEe65mc44BRJ_Xw" id="_LHjO8GwSEe65mc44BRJ_Xw" label="derramas_datos">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSJGwSEe65mc44BRJ_Xw" label="ID_UNIDAD_GESTION" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSJWwSEe65mc44BRJ_Xw" label="ID_ENTIDAD_URBANISTICA" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSJmwSEe65mc44BRJ_Xw" label="TX_NOMBRE_ENTIDAD_URBANISTICA" length="58" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSJ2wSEe65mc44BRJ_Xw" label="ID_TRABAJO_DND" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSKGwSEe65mc44BRJ_Xw" label="ID_TRABAJO_REM" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSKWwSEe65mc44BRJ_Xw" label="FC_INICIO_DERRAMA" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSKmwSEe65mc44BRJ_Xw" label="FC_FIN_DERRAMA" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSK2wSEe65mc44BRJ_Xw" label="IM_DERRAMA" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSLGwSEe65mc44BRJ_Xw" label="DE_ESTADO_GASTO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RyhSLWwSEe65mc44BRJ_Xw" label="FC_AUTORIZACION_PAGO_DERRAMAS" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

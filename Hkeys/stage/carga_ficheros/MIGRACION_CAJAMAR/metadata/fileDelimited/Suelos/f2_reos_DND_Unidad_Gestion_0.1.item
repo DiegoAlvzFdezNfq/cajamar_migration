@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_3w7YgWwREe65mc44BRJ_Xw" name="f2_reos_DND_Unidad_Gestion" dataPackage="_3w7YgmwREe65mc44BRJ_Xw" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/f2_reos_DND_Unidad_Gestion.txt.15102023.ffs_tmp" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3w7YgmwREe65mc44BRJ_Xw" name="default" dataManager="_3w7YgWwREe65mc44BRJ_Xw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3w7Yg2wREe65mc44BRJ_Xw" id="_xe72AGwREe65mc44BRJ_Xw" label="f2_reos_DND_Unidad_Gestion">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3w7YhGwREe65mc44BRJ_Xw" label="FC_DATOS" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3w7YhWwREe65mc44BRJ_Xw" label="ID_UNIDAD_GESTION" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3w7YhmwREe65mc44BRJ_Xw" label="FC_FICHA_TECNICA" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3w7Yh2wREe65mc44BRJ_Xw" label="DE_INICIATIVA_URBANIZADORA" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3w7YiGwREe65mc44BRJ_Xw" label="DE_SITUACION_ORDENACION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3w7YiWwREe65mc44BRJ_Xw" label="IN_PROYECTO_REPARCELACION" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3w7YimwREe65mc44BRJ_Xw" label="IM_COSTE_URBANIZACION" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3w7Yi2wREe65mc44BRJ_Xw" label="Column7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
