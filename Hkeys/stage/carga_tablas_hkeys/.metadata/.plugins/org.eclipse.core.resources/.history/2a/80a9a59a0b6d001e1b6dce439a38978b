@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_dnsC4GzOEe6oRMTvAA4nsA" id="_RAU5wGzOEe6oRMTvAA4nsA" label="TEST" version="0.1" statusCode="" item="_dnsC4mzOEe6oRMTvAA4nsA" displayName="TEST">
+    <author href="../../talend.project#_TzoNEWv4Ee6sjIc5HD3k6g"/>
+    <additionalProperties xmi:id="_dnw7YGzOEe6oRMTvAA4nsA" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_dnxicGzOEe6oRMTvAA4nsA" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_dnxicWzOEe6oRMTvAA4nsA" key="created_date" value="2023-10-17T11:20:50.198+0200"/>
+    <additionalProperties xmi:id="_dnxicmzOEe6oRMTvAA4nsA" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_dnxic2zOEe6oRMTvAA4nsA" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_dnxidGzOEe6oRMTvAA4nsA" key="modified_date" value="2023-10-17T18:38:05.036+0200"/>
+    <additionalProperties xmi:id="_D1MN0GzREe6Hx-oRksCLGQ" key="import_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_D1MN0WzREe6Hx-oRksCLGQ" key="import_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_D1MN0mzREe6Hx-oRksCLGQ" key="import_date" value="2023-10-17T11:39:25.366+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_dnsC4WzOEe6oRMTvAA4nsA" path="" locked="true" lockDate="2023-10-17T18:38:05.036+0200">
+    <locker href="../../talend.project#_TzoNEWv4Ee6sjIc5HD3k6g"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:DatabaseConnectionItem xmi:id="_dnsC4mzOEe6oRMTvAA4nsA" property="_dnsC4GzOEe6oRMTvAA4nsA" state="_dnsC4WzOEe6oRMTvAA4nsA" typeName="MySQL">
+    <connection href="TEST_0.1.item#_dnrb0GzOEe6oRMTvAA4nsA"/>
+  </TalendProperties:DatabaseConnectionItem>
+</xmi:XMI>
