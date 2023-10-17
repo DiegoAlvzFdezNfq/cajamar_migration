@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_YGCoAGv5Ee6sjIc5HD3k6g" name="db_cajamar" id="_82REAGv4Ee6sjIc5HD3k6g" label="db_cajamar" dataPackage="_s9E4kGwKEe667fP-sNiDAQ" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://3.71.174.230:3306/db_cajamar?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="cajamar" Password="enc:system.encryption.key.v1:S1YvMGfzYgShbvuAFl3wv7fyAeD8nWZphPM1+hQcQCM5zwLuG0csAnte" ServerName="3.71.174.230" DatasourceName="" FileFieldName="" SID="db_cajamar" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_YGFEQGv5Ee6sjIc5HD3k6g" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_YGbpkGv5Ee6sjIc5HD3k6g" tag="package filter" value=""/>
+    <taggedValue xmi:id="_YGfT8Gv5Ee6sjIc5HD3k6g" tag="Status" value=""/>
+    <taggedValue xmi:id="_YGfT8Wv5Ee6sjIc5HD3k6g" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_YGfT8mv5Ee6sjIc5HD3k6g" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_YGfT82v5Ee6sjIc5HD3k6g" tag="Description" value=""/>
+    <taggedValue xmi:id="_YGfT9Gv5Ee6sjIc5HD3k6g" tag="Author" value=""/>
+    <taggedValue xmi:id="_YGfT9Wv5Ee6sjIc5HD3k6g" tag="otherParameter"/>
+    <taggedValue xmi:id="_YJY28Gv5Ee6sjIc5HD3k6g" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_YJY28Wv5Ee6sjIc5HD3k6g" tag="DB ProductVersion" value="8.0.34-0ubuntu0.22.04.1"/>
+    <taggedValue xmi:id="_YJY28mv5Ee6sjIc5HD3k6g" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_YGFrUGv5Ee6sjIc5HD3k6g" key="CONN_PARA_KEY_USERNAME" value="cajamar"/>
+    <parameters xmi:id="_p_fGEGwKEe667fP-sNiDAQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_s9E4kGwKEe667fP-sNiDAQ" name="db_cajamar" dataManager="_YGCoAGv5Ee6sjIc5HD3k6g"/>
+</xmi:XMI>
