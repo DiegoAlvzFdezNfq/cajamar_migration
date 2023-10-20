@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_yohmIWzTEe6AzNMugEL-rQ" name="CRM_Prinex" dataPackage="_yohmImzTEe6AzNMugEL-rQ" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/Torito/20230717_CRM_Prinex.txt" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yohmImzTEe6AzNMugEL-rQ" name="default" dataManager="_yohmIWzTEe6AzNMugEL-rQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yohmI2zTEe6AzNMugEL-rQ" id="_uFYyIGzTEe6AzNMugEL-rQ" label="CRM_Prinex">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yohmJGzTEe6AzNMugEL-rQ" label="id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yohmJWzTEe6AzNMugEL-rQ" label="prinex_id_unico" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

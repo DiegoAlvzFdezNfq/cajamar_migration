@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_-8bnwGzTEe6AzNMugEL-rQ" name="CRM_Suelos" dataPackage="_-8bnwWzTEe6AzNMugEL-rQ" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/Torito/20230717_CRM_Suelos.txt" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_-8bnwWzTEe6AzNMugEL-rQ" name="default" dataManager="_-8bnwGzTEe6AzNMugEL-rQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-8bnwmzTEe6AzNMugEL-rQ" id="_y5R-8GzTEe6AzNMugEL-rQ" label="CRM_Suelos">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnw2zTEe6AzNMugEL-rQ" label="id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnxGzTEe6AzNMugEL-rQ" label="tipo_activo_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnxWzTEe6AzNMugEL-rQ" label="clasif_suelo1_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnxmzTEe6AzNMugEL-rQ" label="clasif_suelo2_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnx2zTEe6AzNMugEL-rQ" label="clasif_suelo3_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnyGzTEe6AzNMugEL-rQ" label="Descripcion_crm" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnyWzTEe6AzNMugEL-rQ" label="Situacion_crm" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnymzTEe6AzNMugEL-rQ" label="Localidad_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bny2zTEe6AzNMugEL-rQ" label="Provincia_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnzGzTEe6AzNMugEL-rQ" label="foto_vista_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnzWzTEe6AzNMugEL-rQ" label="foto_vista_ftp_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnzmzTEe6AzNMugEL-rQ" label="foto_situacion_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bnz2zTEe6AzNMugEL-rQ" label="foto_situacion_ftp_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn0GzTEe6AzNMugEL-rQ" label="desc_fisica_suelo_crm" length="1000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn0WzTEe6AzNMugEL-rQ" label="planeamiento_general_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn0mzTEe6AzNMugEL-rQ" label="obs_pgen_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn02zTEe6AzNMugEL-rQ" label="planeamiento_detalle_g_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn1GzTEe6AzNMugEL-rQ" label="avance1" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn1WzTEe6AzNMugEL-rQ" label="avance2" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn1mzTEe6AzNMugEL-rQ" label="avance3" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn12zTEe6AzNMugEL-rQ" label="avance4" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn2GzTEe6AzNMugEL-rQ" label="avance5" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn2WzTEe6AzNMugEL-rQ" label="avance6" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn2mzTEe6AzNMugEL-rQ" label="avance7" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn22zTEe6AzNMugEL-rQ" label="avance8" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn3GzTEe6AzNMugEL-rQ" label="avance9" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn3WzTEe6AzNMugEL-rQ" label="rust_expectativas_urb_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn3mzTEe6AzNMugEL-rQ" label="rust_uso_actual_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn32zTEe6AzNMugEL-rQ" label="rust_aprovech_esperado_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn4GzTEe6AzNMugEL-rQ" label="rust_agua" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn4WzTEe6AzNMugEL-rQ" label="rust_electricidad" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn4mzTEe6AzNMugEL-rQ" label="rust_acceso_viales" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn42zTEe6AzNMugEL-rQ" label="sector_m2s_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn5GzTEe6AzNMugEL-rQ" label="sector_sist_actuacion_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn5WzTEe6AzNMugEL-rQ" label="sector__participacion_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn5mzTEe6AzNMugEL-rQ" label="sector_coef_edif_bruta_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn52zTEe6AzNMugEL-rQ" label="sector_edif_global_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn6GzTEe6AzNMugEL-rQ" label="sector_densidad_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn6WzTEe6AzNMugEL-rQ" label="sector_max_nviv_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn6mzTEe6AzNMugEL-rQ" label="sector_aprov_medio_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn62zTEe6AzNMugEL-rQ" label="Urbaniz__Ejecutado_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn7GzTEe6AzNMugEL-rQ" label="calificacion_y_ordenanza_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn7WzTEe6AzNMugEL-rQ" label="Tipologia_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn7mzTEe6AzNMugEL-rQ" label="uso_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn72zTEe6AzNMugEL-rQ" label="min_parcela_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn8GzTEe6AzNMugEL-rQ" label="min_fachada_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn8WzTEe6AzNMugEL-rQ" label="max_nplantas_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn8mzTEe6AzNMugEL-rQ" label="max_cota_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn82zTEe6AzNMugEL-rQ" label="max_profundidad_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn9GzTEe6AzNMugEL-rQ" label="min_retranqueo_fachada_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn9WzTEe6AzNMugEL-rQ" label="min_retranqueo_linderos_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn9mzTEe6AzNMugEL-rQ" label="min_retranqueo_fondo_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn92zTEe6AzNMugEL-rQ" label="min_retranqueo_atico_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn-GzTEe6AzNMugEL-rQ" label="max_ocup_brasante_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn-WzTEe6AzNMugEL-rQ" label="max_ocup_pbaja_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn-mzTEe6AzNMugEL-rQ" label="max_ocup_pinter_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn-2zTEe6AzNMugEL-rQ" label="max_ocup_patico_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn_GzTEe6AzNMugEL-rQ" label="min_aparcamientos_justif_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn_WzTEe6AzNMugEL-rQ" label="min_aparcamientos_sup_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn_mzTEe6AzNMugEL-rQ" label="min_aparcamientos_uds_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8bn_2zTEe6AzNMugEL-rQ" label="max_edific_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boAGzTEe6AzNMugEL-rQ" label="max_edific_justif_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boAWzTEe6AzNMugEL-rQ" label="max_nviv_edif_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boAmzTEe6AzNMugEL-rQ" label="max_nviv_vpo_edif_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boA2zTEe6AzNMugEL-rQ" label="total_nviv_edif_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boBGzTEe6AzNMugEL-rQ" label="max_nviv_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boBWzTEe6AzNMugEL-rQ" label="max_nviv_vpo_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boBmzTEe6AzNMugEL-rQ" label="total_nviv_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boB2zTEe6AzNMugEL-rQ" label="otros_crm" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boCGzTEe6AzNMugEL-rQ" label="proxim_nucleo_urbano_crm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boCWzTEe6AzNMugEL-rQ" label="desc_urbanistica_suelo_crm" length="5000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8boCmzTEe6AzNMugEL-rQ" label="desc_posible_desarrollo_crm" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

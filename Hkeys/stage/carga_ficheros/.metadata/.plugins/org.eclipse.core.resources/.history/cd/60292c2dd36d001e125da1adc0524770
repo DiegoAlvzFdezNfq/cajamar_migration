@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_k69BAG3SEe6O4-mjewwspg" id="_k6ef4G3SEe6O4-mjewwspg" label="FGC_GASTOSINMU" version="0.1" statusCode="" item="_k69BAm3SEe6O4-mjewwspg" displayName="FGC_GASTOSINMU">
+    <author href="../../../talend.project#_1ikrgGzKEe6AzNMugEL-rQ"/>
+    <additionalProperties xmi:id="_k7KcYG3SEe6O4-mjewwspg" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_k7KcYW3SEe6O4-mjewwspg" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_k7KcYm3SEe6O4-mjewwspg" key="created_date" value="2023-10-18T18:22:48.358+0200"/>
+    <additionalProperties xmi:id="_k7KcY23SEe6O4-mjewwspg" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_k7KcZG3SEe6O4-mjewwspg" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_k7KcZW3SEe6O4-mjewwspg" key="modified_date" value="2023-10-18T18:26:46.840+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_k69BAW3SEe6O4-mjewwspg" path="CCPP"/>
+  <TalendProperties:ExcelFileConnectionItem xmi:id="_k69BAm3SEe6O4-mjewwspg" property="_k69BAG3SEe6O4-mjewwspg" state="_k69BAW3SEe6O4-mjewwspg">
+    <connection href="FGC_GASTOSINMU_0.1.item#_k64vkG3SEe6O4-mjewwspg"/>
+  </TalendProperties:ExcelFileConnectionItem>
+</xmi:XMI>

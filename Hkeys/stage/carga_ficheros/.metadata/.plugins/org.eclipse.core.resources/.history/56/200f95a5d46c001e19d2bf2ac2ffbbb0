@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_JwwicGzTEe6AzNMugEL-rQ" name="CRM_FincasCatastrales" dataPackage="_JwwicWzTEe6AzNMugEL-rQ" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/Torito/20230717_CRM_FincasCatastrales.txt" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_JwwicWzTEe6AzNMugEL-rQ" name="default" dataManager="_JwwicGzTEe6AzNMugEL-rQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JwwicmzTEe6AzNMugEL-rQ" id="_AYz7oGzTEe6AzNMugEL-rQ" label="CRM_FincasCatastrales">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Jwwic2zTEe6AzNMugEL-rQ" label="id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JwwidGzTEe6AzNMugEL-rQ" label="Finca_Registral_crm" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JwwidWzTEe6AzNMugEL-rQ" label="fecha_crm" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JwwidmzTEe6AzNMugEL-rQ" label="tasadora_crm" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Jwwid2zTEe6AzNMugEL-rQ" label="tipo_valoracion_crm" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JwwieGzTEe6AzNMugEL-rQ" label="valor_a_fecha_crm" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JwwieWzTEe6AzNMugEL-rQ" label="valor_terminado_crm" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JwwiemzTEe6AzNMugEL-rQ" label="observaciones_crm" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Jwwie2zTEe6AzNMugEL-rQ" label="Activa" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

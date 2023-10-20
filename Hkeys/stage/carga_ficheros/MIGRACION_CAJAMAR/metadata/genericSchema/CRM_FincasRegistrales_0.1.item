@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_UrLWsmzVEe6AzNMugEL-rQ" dataPackage="_UrLWs2zVEe6AzNMugEL-rQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_UrLWs2zVEe6AzNMugEL-rQ" dataManager="_UrLWsmzVEe6AzNMugEL-rQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_UrLWtGzVEe6AzNMugEL-rQ" id="_UrLWsGzVEe6AzNMugEL-rQ" label="CRM_FincasRegistrales">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UrLWtWzVEe6AzNMugEL-rQ" name="id" label="id" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_UrLWtmzVEe6AzNMugEL-rQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UrLWt2zVEe6AzNMugEL-rQ" name="finca_crm" label="finca_crm" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_UrLWuGzVEe6AzNMugEL-rQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UrLWuWzVEe6AzNMugEL-rQ" name="m2s_registrales_crm" label="m2s_registrales_crm" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_UrLWumzVEe6AzNMugEL-rQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UrLWu2zVEe6AzNMugEL-rQ" name="activa" label="activa" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_UrLWvGzVEe6AzNMugEL-rQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UrLWvWzVEe6AzNMugEL-rQ" name="observ_crm" label="observ_crm" length="3000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_UrLWvmzVEe6AzNMugEL-rQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

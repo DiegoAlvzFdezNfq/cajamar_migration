@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Zoda8WzTEe6AzNMugEL-rQ" name="CRM_Ordenanzas" dataPackage="_Zoda8mzTEe6AzNMugEL-rQ" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/Ficheros_20231013/Torito/20230717_CRM_Ordenanzas.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Zoda8mzTEe6AzNMugEL-rQ" name="default" dataManager="_Zoda8WzTEe6AzNMugEL-rQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Zoda82zTEe6AzNMugEL-rQ" id="_UbIacGzTEe6AzNMugEL-rQ" label="CRM_Ordenanzas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zoda9GzTEe6AzNMugEL-rQ" label="id" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zoda9WzTEe6AzNMugEL-rQ" label="Ordenanza_crm" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zoda9mzTEe6AzNMugEL-rQ" label="_suelo_crm" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zoda92zTEe6AzNMugEL-rQ" label="m2s__sect__crm" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zoda-GzTEe6AzNMugEL-rQ" label="Aprov_sect__crm" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zoda-WzTEe6AzNMugEL-rQ" label="Edif_sect__crm" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zoda-mzTEe6AzNMugEL-rQ" label="Uds_n_parc__crm" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Zoda-2zTEe6AzNMugEL-rQ" label="Edif_n_parc__crm" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

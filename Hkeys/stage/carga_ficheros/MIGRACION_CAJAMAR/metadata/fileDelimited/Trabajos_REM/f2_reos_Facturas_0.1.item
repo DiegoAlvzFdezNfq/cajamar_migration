@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_TzNkUG3PEe6zOKRgONwn0A" name="f2_reos_Facturas" dataPackage="_TzNkUW3PEe6zOKRgONwn0A" Server="Localhost 127.0.0.1" FilePath="G:/.shortcut-targets-by-id/13dwvsJwtH7qTkK0HGZd6OyiOZv0nXuVy/01. Proyecto WV/07. Migración/XX. Ficheros Haya/f2_reos_Facturas.txt.17102023.ffs_tmp" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_TzNkUW3PEe6zOKRgONwn0A" name="default" dataManager="_TzNkUG3PEe6zOKRgONwn0A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TzNkUm3PEe6zOKRgONwn0A" id="_EYaDMG3PEe6zOKRgONwn0A" label="f2_reos_Facturas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkU23PEe6zOKRgONwn0A" label="ID_HAYA" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkVG3PEe6zOKRgONwn0A" label="NM_FACTURA" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkVW3PEe6zOKRgONwn0A" label="NM_ANIO_FACTURA" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkVm3PEe6zOKRgONwn0A" label="ID_PRINEX" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkV23PEe6zOKRgONwn0A" label="DE_NOMBRE_PROVEEDOR" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkWG3PEe6zOKRgONwn0A" label="TX_CODIGO_POSTAL_PROVEEDOR" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkWW3PEe6zOKRgONwn0A" label="TX_DOMICILIO" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkWm3PEe6zOKRgONwn0A" label="TX_NUMERO" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkW23PEe6zOKRgONwn0A" label="DE_POBLACION" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkXG3PEe6zOKRgONwn0A" label="TX_DOCUMENTO" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkXW3PEe6zOKRgONwn0A" label="TX_NM_CUENTA_CORRIENTE" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkXm3PEe6zOKRgONwn0A" label="DE_CONCEPTO_FACTURA" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkX23PEe6zOKRgONwn0A" label="DE_TIPOLOGIA_FACTURA" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkYG3PEe6zOKRgONwn0A" label="IM_FACTURA_IBI" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkYW3PEe6zOKRgONwn0A" label="IN_IBI_PAGADO" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkYm3PEe6zOKRgONwn0A" label="FC_PAGO_TASA_IBI" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkY23PEe6zOKRgONwn0A" label="IM_FACTURA_TASA" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkZG3PEe6zOKRgONwn0A" label="IN_TASA_PAGADO" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkZW3PEe6zOKRgONwn0A" label="FC_PAGO_TASA" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TzNkZm3PEe6zOKRgONwn0A" label="Column19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
